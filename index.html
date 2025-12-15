@@ -1,0 +1,266 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>MONEY BHAI CHANNEL</title>
+    <meta name="description" content="Join our exclusive VIP Telegram community for premium updates." />
+
+   <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2324627484711468');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2324627484711468&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+    <style>
+        :root {
+            --gold: #f5c542;
+            --bg: #0b0b0b;
+            --card: rgba(255, 255, 255, 0.02);
+            --glass: rgba(255, 255, 255, 0.015);
+            --black: #000;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0
+        }
+
+        html,
+        body {
+            height: 100%;
+            background: var(--bg);
+            color: #fff;
+            font-family: Inter, system-ui, Segoe UI, Roboto, "Poppins", sans-serif;
+            overflow: hidden
+        }
+
+        /* Premium animated background (lightweight) */
+
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            background: radial-gradient(circle at 28% 30%, rgba(245, 197, 66, 0.06), transparent 45%), radial-gradient(circle at 72% 70%, rgba(255, 215, 0, 0.04), transparent 45%);
+            animation: bgMove 12s linear infinite alternate;
+            pointer-events: none;
+        }
+
+        @keyframes bgMove {
+            0% {
+                transform: translateY(0)
+            }
+            100% {
+                transform: translateY(-10px)
+            }
+        }
+
+        .wrap {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding: 20px;
+            text-align: center
+        }
+
+        .card {
+            width: 100%;
+            max-width: 520px;
+            padding: 28px;
+            border-radius: 18px;
+            background: linear-gradient(180deg, var(--card), var(--glass));
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(6px)
+        }
+
+        /* Logo */
+
+        .logo {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 16px;
+            display: block;
+            box-shadow: 0 10px 35px rgba(245, 197, 66, 0.16);
+            animation: pop .7s ease
+        }
+
+        @keyframes pop {
+            from {
+                transform: scale(.96);
+                opacity: 0
+            }
+            to {
+                transform: scale(1);
+                opacity: 1
+            }
+        }
+
+        h1 {
+            color: var(--gold);
+            font-size: 22px;
+            margin: 0 0 8px;
+            letter-spacing: 1px;
+            text-shadow: 0 0 10px rgba(245, 197, 66, 0.12)
+        }
+
+        p.lead {
+            color: #eaeaea;
+            opacity: 0.95;
+            margin: 0 0 20px;
+            font-size: 15px;
+            line-height: 1.4
+        }
+
+        /* Button with shine effect (pure CSS, lightweight) */
+
+        .btn-wrap {
+            display: inline-block;
+            position: relative
+        }
+
+        .btn {
+            position: relative;
+            display: inline-block;
+            padding: 12px 36px;
+            border-radius: 999px;
+            border: 0;
+            font-weight: 800;
+            font-size: 16px;
+            cursor: pointer;
+            background: linear-gradient(90deg, var(--gold), #c68f1e);
+            color: #000;
+            box-shadow: 0 10px 30px rgba(245, 197, 66, 0.18);
+            overflow: hidden;
+            transition: transform .18s ease, box-shadow .18s ease;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .btn:active {
+            transform: translateY(1px)
+        }
+
+        .btn:hover {
+            transform: scale(1.04);
+            box-shadow: 0 14px 45px rgba(245, 197, 66, 0.26)
+        }
+
+        /* Shine element */
+
+        .shine {
+            position: absolute;
+            top: -40%;
+            left: -60%;
+            width: 40%;
+            height: 200%;
+            background: linear-gradient(120deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.0));
+            transform: rotate(25deg) translateX(-10%);
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity .35s ease, transform .8s cubic-bezier(.2, .9, .2, 1);
+            will-change: opacity, transform;
+        }
+
+        .btn:hover .shine {
+            opacity: 1;
+            transform: rotate(25deg) translateX(120%)
+        }
+
+        .meta {
+            margin-top: 14px;
+            color: #dcdcdc;
+            font-size: 14px
+        }
+
+        @media (max-width:420px) {
+            .logo {
+                width: 130px;
+                height: 130px
+            }
+            .card {
+                padding: 20px
+            }
+            h1 {
+                font-size: 20px
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="wrap">
+        <section class="card" role="main" aria-labelledby="title">
+            <!-- preload logo for instant render -->
+
+            <link rel="preload" as="image" href="https://i.ibb.co/yB5dfzmm/photo-2025-12-12-05-34-33.png">
+            <img src="https://i.ibb.co/yB5dfzmm/photo-2025-12-12-05-34-33.png" alt="NUMBER SURESHOT VIP" class="logo" id="logo">
+            <h1 id="title">MONEY BHAI CHANNEL</h1>
+            <p class="lead">Join our exclusive VIP Telegram community for premium updates.</p>
+
+            <div class="btn-wrap" aria-hidden="false">
+                <button id="joinBtn" class="btn" type="button" aria-label="Join Now">
+          🚀 JOIN NOW
+          <span class="shine" aria-hidden="true"></span>
+        </button>
+            </div>
+
+            <div class="meta">Tap “JOIN NOW” to continue to Telegram</div>
+        </section>
+    </main>
+
+    <script>
+        (function() {
+            const TELEGRAM_URL = "https://t.me/+vI4apV21eBQ2NjFl";
+            
+            const joinBtn = document.getElementById('joinBtn');
+
+            function fireLead(note) {
+                try {
+                    if (typeof fbq === 'function') {
+                      fbq('', PIXEL_LEAD , {
+                            method: note || 'click'
+                        });
+                    }
+                } catch (e) {}
+            }
+
+            joinBtn.addEventListener('click', function() {
+                // Fire lead then open telegram in new tab
+                fireLead('click');
+                // Open in new tab to preserve landing session
+                window.open(TELEGRAM_URL, '_blank', 'noopener');
+            });
+
+            // Optional: ensure logo visible ASAP (in case of slow networks)
+            // If image hasn't loaded in 500ms, reduce animation to show placeholder quickly
+            const logo = document.getElementById('logo');
+            let logoTimer = setTimeout(() => {
+                logo.style.opacity = '1';
+                logo.style.transform = 'none';
+            }, 500);
+            logo.addEventListener('load', () => {
+                clearTimeout(logoTimer);
+            });
+        })();
+    </script>
+</body>
+
+</html>
