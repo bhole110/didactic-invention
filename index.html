@@ -1,12 +1,4 @@
-<html lang="en">
-
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>MONEY BHAI CHANNEL</title>
-    <meta name="description" content="Join our exclusive VIP Telegram community for premium updates." />
-
-   <!-- Meta Pixel Code -->
+<!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -16,251 +8,192 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '2324627484711468');
+fbq('init', '2346761292427815');
 fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=2324627484711468&ev=PageView&noscript=1"
+src="https://www.facebook.com/tr?id=2346761292427815&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>TG @BHOLENOTOP</title>
+<style>
+  html,body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    overflow:hidden; /* no scroll */
+    background:#000;
+    font-family:'Poppins',sans-serif;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
 
-    <style>
-        :root {
-            --gold: #f5c542;
-            --bg: #0b0b0b;
-            --card: rgba(255, 255, 255, 0.02);
-            --glass: rgba(255, 255, 255, 0.015);
-            --black: #000;
-        }
+  canvas#bg{
+    position:fixed;
+    top:0;left:0;
+    width:100%;
+    height:100%;
+    z-index:0;
+  }
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0
-        }
+  .container{
+    text-align:center;
+    z-index:2;
+    position:relative;
+    width:100%;
+    max-width:420px;
+    padding:20px;
+    box-sizing:border-box;
+  }
 
-        html,
-        body {
-            height: 100%;
-            background: var(--bg);
-            color: #fff;
-            font-family: Inter, system-ui, Segoe UI, Roboto, "Poppins", sans-serif;
-            overflow: hidden
-        }
+  .logo img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    box-shadow:0 0 30px rgba(0,255,255,0.3);
+  }
 
-        /* Premium animated background (lightweight) */
+  h1{
+    color:#ffe400;
+    margin:12px 0 10px;
+    font-size:clamp(22px,5vw,30px);
+    text-shadow:0 0 12px rgba(255,200,0,0.5), 0 0 30px rgba(255,160,0,0.2);
+  }
 
-        body::before {
-            content: "";
-            position: fixed;
-            inset: 0;
-            z-index: 0;
-            background: radial-gradient(circle at 28% 30%, rgba(245, 197, 66, 0.06), transparent 45%), radial-gradient(circle at 72% 70%, rgba(255, 215, 0, 0.04), transparent 45%);
-            animation: bgMove 12s linear infinite alternate;
-            pointer-events: none;
-        }
+  p{
+    font-size:clamp(14px,4vw,16px);
+    margin:6px 0;
+    color:#f0f0f0;
+  }
 
-        @keyframes bgMove {
-            0% {
-                transform: translateY(0)
-            }
-            100% {
-                transform: translateY(-10px)
-            }
-        }
+  .btn{
+    display:inline-block;
+    width:100%;
+    max-width:320px;
+    margin-top:16px;
+    padding:14px 22px;
+    border-radius:40px;
+    font-weight:800;
+    text-decoration:none;
+    text-transform:uppercase;
+    transition:all .3s ease;
+    border:none;
+    outline:none;
+    cursor:pointer;
+  }
 
-        .wrap {
-            position: relative;
-            z-index: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            padding: 20px;
-            text-align: center
-        }
+  .join-btn{
+    background:linear-gradient(90deg,#ffbf00,#ff6a00);
+    color:#000;
+    font-size:clamp(14px,4.5vw,16px);
+    box-shadow:0 0 25px rgba(255,150,0,0.6), 0 0 50px rgba(255,100,0,0.3);
+    animation:glowPulse 2s infinite alternate;
+  }
 
-        .card {
-            width: 100%;
-            max-width: 520px;
-            padding: 28px;
-            border-radius: 18px;
-            background: linear-gradient(180deg, var(--card), var(--glass));
-            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
-            backdrop-filter: blur(6px)
-        }
+  @keyframes glowPulse{
+    from{box-shadow:0 0 20px rgba(255,160,0,0.4),0 0 40px rgba(255,80,0,0.2);}
+    to{box-shadow:0 0 40px rgba(255,200,0,0.7),0 0 80px rgba(255,100,0,0.4);}
+  }
 
-        /* Logo */
+  .setup-btn{
+    background:linear-gradient(90deg,#1e9bff,#00c8ff);
+    color:#fff;
+    font-size:clamp(14px,4vw,15px);
+    margin-top:20px;
+    box-shadow:0 0 25px rgba(0,200,255,0.4);
+  }
 
-        .logo {
-            width: 160px;
-            height: 160px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin: 0 auto 16px;
-            display: block;
-            box-shadow: 0 10px 35px rgba(245, 197, 66, 0.16);
-            animation: pop .7s ease
-        }
+  .timer{
+    margin-top:12px;
+    font-weight:700;
+    font-size:clamp(14px,4vw,15px);
+    color:#ff4747;
+    text-shadow:0 0 8px rgba(255,0,0,0.4);
+  }
 
-        @keyframes pop {
-            from {
-                transform: scale(.96);
-                opacity: 0
-            }
-            to {
-                transform: scale(1);
-                opacity: 1
-            }
-        }
-
-        h1 {
-            color: var(--gold);
-            font-size: 22px;
-            margin: 0 0 8px;
-            letter-spacing: 1px;
-            text-shadow: 0 0 10px rgba(245, 197, 66, 0.12)
-        }
-
-        p.lead {
-            color: #eaeaea;
-            opacity: 0.95;
-            margin: 0 0 20px;
-            font-size: 15px;
-            line-height: 1.4
-        }
-
-        /* Button with shine effect (pure CSS, lightweight) */
-
-        .btn-wrap {
-            display: inline-block;
-            position: relative
-        }
-
-        .btn {
-            position: relative;
-            display: inline-block;
-            padding: 12px 36px;
-            border-radius: 999px;
-            border: 0;
-            font-weight: 800;
-            font-size: 16px;
-            cursor: pointer;
-            background: linear-gradient(90deg, var(--gold), #c68f1e);
-            color: #000;
-            box-shadow: 0 10px 30px rgba(245, 197, 66, 0.18);
-            overflow: hidden;
-            transition: transform .18s ease, box-shadow .18s ease;
-            -webkit-tap-highlight-color: transparent;
-        }
-
-        .btn:active {
-            transform: translateY(1px)
-        }
-
-        .btn:hover {
-            transform: scale(1.04);
-            box-shadow: 0 14px 45px rgba(245, 197, 66, 0.26)
-        }
-
-        /* Shine element */
-
-        .shine {
-            position: absolute;
-            top: -40%;
-            left: -60%;
-            width: 40%;
-            height: 200%;
-            background: linear-gradient(120deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.0));
-            transform: rotate(25deg) translateX(-10%);
-            opacity: 0;
-            pointer-events: none;
-            transition: opacity .35s ease, transform .8s cubic-bezier(.2, .9, .2, 1);
-            will-change: opacity, transform;
-        }
-
-        .btn:hover .shine {
-            opacity: 1;
-            transform: rotate(25deg) translateX(120%)
-        }
-
-        .meta {
-            margin-top: 14px;
-            color: #dcdcdc;
-            font-size: 14px
-        }
-
-        @media (max-width:420px) {
-            .logo {
-                width: 130px;
-                height: 130px
-            }
-            .card {
-                padding: 20px
-            }
-            h1 {
-                font-size: 20px
-            }
-        }
-    </style>
+  .footer{
+    margin-top:20px;
+    font-size:11px;
+    color:rgba(255,255,255,0.5);
+  }
+</style>
 </head>
-
 <body>
-    <main class="wrap">
-        <section class="card" role="main" aria-labelledby="title">
-            <!-- preload logo for instant render -->
+<canvas id="bg"></canvas>
+  </style>
+<div class="container">
+  <div class="logo"><img src="https://i.ibb.co/g1KS6Tg/IMG-20251215-230300-874.jpg" alt="Logo"></div>
+  <h1>BDG CHANNEL♥️</h1>
+  <p>Official Channel for Daily Number Insight🔥</p>
+  <p>Trusted Tips by Pro Team – Join Now👇</p>
 
-            <link rel="preload" as="image" href="https://i.ibb.co/yB5dfzmm/photo-2025-12-12-05-34-33.png">
-            <img src="https://i.ibb.co/yB5dfzmm/photo-2025-12-12-05-34-33.png" alt="NUMBER SURESHOT VIP" class="logo" id="logo">
-            <h1 id="title">MONEY BHAI CHANNEL</h1>
-            <p class="lead">Join our exclusive VIP Telegram community for premium updates.</p>
+  <button id="joinBtn" class="btn join-btn">🚀 JOIN TELEGRAM NOW</button>
+  <div class="timer">⏳ Offer ends in: <span id="countdown">15</span>s</div>
+  <button id="setupBtn" class="btn join-btn">🚀 JOIN TELEGRAM NOW</button>
 
-            <div class="btn-wrap" aria-hidden="false">
-                <button id="joinBtn" class="btn" type="button" aria-label="Join Now">
-          🚀 JOIN NOW
-          <span class="shine" aria-hidden="true"></span>
-        </button>
-            </div>
+  <div class="footer">© 2025 @BHOLENOTOP ADS TG. All rights reserved.</div>
+</div>
 
-            <div class="meta">Tap “JOIN NOW” to continue to Telegram</div>
-        </section>
-    </main>
+<script>
+// Telegram link
+const TELEGRAM_LINK = "https://t.me/+RKgekLF0Qnw2MWU1";
 
-    <script>
-        (function() {
-            const TELEGRAM_URL = "https://t.me/+vI4apV21eBQ2NjFl";
-            
-            const joinBtn = document.getElementById('joinBtn');
+// Countdown + auto redirect
+let timeLeft = 15;
+const countdownEl = document.getElementById('countdown');
+const joinBtn = document.getElementById('joinBtn');
+const setupBtn = document.getElementById('setupBtn');
 
-            function fireLead(note) {
-                try {
-                    if (typeof fbq === 'function') {
-                      fbq('', PIXEL_LEAD , {
-                            method: note || 'click'
-                        });
-                    }
-                } catch (e) {}
-            }
+const timer = setInterval(()=>{
+  timeLeft--;
+  countdownEl.textContent = timeLeft;
+  if(timeLeft <= 0){
+    clearInterval(timer);
+    window.location.href = TELEGRAM_LINK;
+  }
+},1000);
 
-            joinBtn.addEventListener('click', function() {
-                // Fire lead then open telegram in new tab
-                fireLead('click');
-                // Open in new tab to preserve landing session
-                window.open(TELEGRAM_URL, '_blank', 'noopener');
-            });
+joinBtn.onclick = ()=>{window.location.href = TELEGRAM_LINK;}
+setupBtn.onclick = ()=>{window.location.href = TELEGRAM_LINK;}
 
-            // Optional: ensure logo visible ASAP (in case of slow networks)
-            // If image hasn't loaded in 500ms, reduce animation to show placeholder quickly
-            const logo = document.getElementById('logo');
-            let logoTimer = setTimeout(() => {
-                logo.style.opacity = '1';
-                logo.style.transform = 'none';
-            }, 500);
-            logo.addEventListener('load', () => {
-                clearTimeout(logoTimer);
-            });
-        })();
-    </script>
+// Sci-Fi background animation
+const canvas=document.getElementById('bg');
+const ctx=canvas.getContext('2d');
+let W=canvas.width=window.innerWidth,H=canvas.height=window.innerHeight;
+window.addEventListener('resize',()=>{W=canvas.width=window.innerWidth;H=canvas.height=window.innerHeight;});
+
+const particles=Array(100).fill().map(()=>({x:Math.random()*W,y:Math.random()*H,r:Math.random()*1.8,vx:(Math.random()-.5)*.3,vy:(Math.random()-.5)*.3}));
+let t=0;
+function draw(){
+  ctx.fillStyle='rgba(0,0,10,0.3)';
+  ctx.fillRect(0,0,W,H);
+  for(const p of particles){
+    p.x+=p.vx;p.y+=p.vy;
+    if(p.x<0)p.x=W;if(p.x>W)p.x=0;if(p.y<0)p.y=H;if(p.y>H)p.y=0;
+    ctx.beginPath();
+    ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+    ctx.fillStyle='rgba(0,255,255,0.5)';
+    ctx.fill();
+  }
+  ctx.beginPath();
+  for(let x=0;x<W;x+=15){
+    const y=H/2+Math.sin(x*0.01+t*0.05)*15+Math.sin(x*0.02+t*0.03)*10;
+    if(x===0)ctx.moveTo(x,y);else ctx.lineTo(x,y);
+  }
+  ctx.strokeStyle='rgba(0,255,200,0.3)';
+  ctx.lineWidth=2;
+  ctx.stroke();
+  t+=0.5;
+  requestAnimationFrame(draw);
+}
+draw();
+</script>
 </body>
-
 </html>
